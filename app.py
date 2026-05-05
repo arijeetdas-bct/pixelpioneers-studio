@@ -22,8 +22,10 @@ st.set_page_config(
 
 load_dotenv()
 
-STABILITY_API_KEY = os.getenv("STABILITY_API_KEY")
-REPLICATE_API_TOKEN = os.getenv("REPLICATE_API_TOKEN")
+# STABILITY_API_KEY = os.getenv("STABILITY_API_KEY")
+STABILITY_API_KEY = get_secret("STABILITY_API_KEY")
+# REPLICATE_API_TOKEN = os.getenv("REPLICATE_API_TOKEN")
+REPLICATE_API_TOKEN = get_secret("REPLICATE_API_TOKEN")
 
 # ---------------- SESSION STATE ---------------- #
 
