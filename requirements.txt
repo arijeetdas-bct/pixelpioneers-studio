@@ -5,7 +5,7 @@
 # ------------------ Core App ------------------
 streamlit
 requests
-# python-dotenv
+python-dotenv
 Pillow
 streamlit-image-comparison
 numpy
