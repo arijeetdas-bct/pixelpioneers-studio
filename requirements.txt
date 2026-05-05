@@ -11,4 +11,4 @@ streamlit-image-comparison
 numpy
 
 # ------------------ Replicate AI ------------------
-replicate
+replicate==0.32.0
