@@ -4,11 +4,11 @@
 
 # ------------------ Core App ------------------
 streamlit
-requests==2.31.0
-python-dotenv==1.0.1
-Pillow==10.3.0
-streamlit-image-comparison==0.0.4
-numpy==1.26.4
+requests
+# python-dotenv
+Pillow
+streamlit-image-comparison
+numpy
 
 # ------------------ Replicate AI ------------------
-replicate==0.32.0
+replicate
